@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+    
+    <!-- DEPENDENCY INJECTION BY SETER METHOD
+    
+    
+    <bean id="s1" class="com.tk.Di.Student">
+		<property name="studentName" value="Gayatri"/>
+		<property name="id" value="101"/>
+	</bean>
+	
+	<bean id="s2" class="com.tk.Di.Student">
+		<property name="studentName" value="Dhanya"/>
+		<property name="id" value="102"/>
+	</bean>
+	 -->
+	 
+	 
+	 <!-- DEPENDENCY INJECTION BY CONSTRUTOR
+	 <bean id="s1" class="com.tk.Di.Student">
+		<constructor-arg name="studentName" value="Gayatri"/>
+		<constructor-arg name="id" value="101"/>
+	</bean>
+	
+	<bean id="s2" class="com.tk.Di.Student">
+		<constructor-arg name="studentName" value="Dhanya"/>
+		<constructor-arg name="id" value="102"/>
+	</bean>
+	 -->
+		 
+	 
+	 
+	 
+	
+</beans>
